@@ -1,0 +1,65 @@
+.wall{
+	width: 100%;
+    height: 100%;
+    background-image: url("plane.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+	
+}
+
+#login-box{
+	border: 4px solid black;
+    background-image: url(ntgn.jpg);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 387px;
+    height: 547px;
+    top: 178px;
+    left: 101px;
+}
+
+.txt{
+	position: relative;
+    top: 194px;
+    font-size: 16px;
+    color: aliceblue;
+    margin: -13px;
+}
+
+.input-field{
+	    position: relative;
+    width: 315px;
+    height: auto;
+    top: 205px;
+    margin: 8px;
+    padding: 6px;
+}
+
+.btn-login{
+	    position: absolute;
+    top: 354px;
+    left: 139px;
+    margin: 8px;
+    padding: 4px;
+    width: 84px;
+    height: 37px;
+}
+
+.btn-login:hover{
+	color: #17ddf7;
+    outline-style: groove;
+    cursor: pointer;
+}
+
+.prgh{
+	    position: relative;
+    top: 324px;
+    left: 11px;
+    color: aliceblue;
+}
+
+a:hover{
+	color: red;
+}

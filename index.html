@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Login Form Website</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	
+</head>
+<body>
+	<div class="wall">
+		<div id="login-box">
+		<center><b><div class="txt" ><p>PHINHA ST. JUDE COLLEGE</p></div></b></center>
+		<center><div class="txt"><p>MAKING LIVES BETTER THROUGH EDUCATION</p></div></center>
+			
+			<center>
+				<form>
+					<input type="text" class="input-field"	placeholder="username" name="usersid" required>
+			
+					<input type="password" class="input-field" placeholder="password" name="userspass" required>
+
+					<button type="submit" class="btn-login" onclick="check(form)">Login</button>
+				</form>
+			</center>
+				
+			<div class="prgh"><p>You don't have account?<a href="index2.html">sign up</a></p></div>
+				
+		</div>
+	</div>
+	
+	<script language="javascript">
+			function check(form){
+        		if (form.usersid.value == "jeceiljohndagohoy@yahoo.com" && form.userspass.value == "123")
+					{
+						window.open('index3.html')
+					}
+        	
+				else
+					{
+						alert("The username and password you entered don't match")
+					}
+			}
+	</script>
+	
+</body>
+</html>
+</?php>
